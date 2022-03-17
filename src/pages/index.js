@@ -38,9 +38,6 @@ const IndexPage = () => {
     });
   }, []);
   var decPart = (updateValue + "").split(".")[1];
-  console.log("detectChange", detectChange)
-
-
 
   const handleClick = (id) => {
     gsap.to(window, {
